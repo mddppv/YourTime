@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/secoondomerFragment">
+
+    <fragment
+        android:id="@+id/secoondomerFragment"
+        android:name="com.example.yourtime.presentation.secoondomer.SecoondomerFragment"
+        android:label="fragment_secoondomer"
+        tools:layout="@layout/fragment_secoondomer" />
+
+    <fragment
+        android:id="@+id/timerFragment"
+        android:name="com.example.yourtime.presentation.timer.TimerFragment"
+        android:label="fragment_timer"
+        tools:layout="@layout/fragment_timer" />
+
+    <fragment
+        android:id="@+id/boodeelneekFragment"
+        android:name="com.example.yourtime.presentation.boodeelneek.BoodeelneekFragment"
+        android:label="fragment_boodeelneek"
+        tools:layout="@layout/fragment_boodeelneek" />
+
+</navigation>
